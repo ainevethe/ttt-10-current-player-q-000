@@ -5,6 +5,7 @@ def turn_count(board)
   while counter < 9
     board.each do
       counter += 1
+    end
   end
 end
 
