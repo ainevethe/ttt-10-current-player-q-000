@@ -2,8 +2,10 @@
 def turn_count(board)
 
   counter = 0
-  while count <= (board.length - 1)
-    counter +=1
+  while counter < 9
+    board.each do 
+      counter += 1
+    end
   end
 end
 
