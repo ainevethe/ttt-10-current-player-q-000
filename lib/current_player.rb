@@ -3,10 +3,8 @@ def turn_count(board)
 
   counter = 0
 
-      if counter < 9
-        counter += 1
-      end
-    return counter
+  while count <= board.length - 1
+    count +=1
 end
 
 def current_player(board)
