@@ -5,6 +5,7 @@ def turn_count(board)
 
   while count <= board.length - 1
     count +=1
+  end
 end
 
 def current_player(board)
