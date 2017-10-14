@@ -4,7 +4,7 @@ def turn_count(board)
   counter = 0
 
   while count <= board.length - 1
-    count +=1
+    counter +=1
   end
 end
 
