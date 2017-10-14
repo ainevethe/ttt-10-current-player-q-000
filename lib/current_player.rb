@@ -17,3 +17,5 @@ def current_player(board)
   else turn_count(board) % 2 != 0
 
   end
+end
+
